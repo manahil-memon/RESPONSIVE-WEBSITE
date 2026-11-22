@@ -1,0 +1,142 @@
+body {
+    font-family: "Poppins" , sans-serif;
+ }             
+● {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+     .destination-card img {
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 0px;
+    box-shadow: #6f4cc2;
+     }
+body {
+    font-family: Arial, sans-serif;
+    background-color: #6f4cc2;
+}
+header {
+    background-color: rgb(148, 57, 113);
+    padding: 20px 8%;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav h2 {
+    color: rgb(62, 155, 97);
+}
+.destination-card img{
+    width: 500%;
+    max-width: 300px;
+    border-radius: 0%;
+    box-shadow: #09b609;
+}    
+    nav ul{
+    display: flex;
+    list-style: none;
+    gap: 25px;
+}
+nav a {
+    text-decoration: none;
+    color: rgb(138, 138, 153);
+}       
+.beach-img {
+    width: 300px;
+    border-radius: 15px;
+    box-shadow: #6f4cc2;
+} 
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px 8%;
+    gap: 40px;
+}
+.image img{
+    width: 3000%;
+    max-width: 50px;
+    border-radius: 15px;
+}
+.content {
+    max-width: 450px;
+}
+.content h1 {
+    font-size: 45px;
+    color: rgb(19, 185, 130);
+    margin-bottom: 20px;
+}
+.content p {
+    font-size: 17px;
+    color: blueviolet;
+    line-height: 1.7;
+}
+.image img{
+    width: 300%;
+    max-width: 50px;
+    border-radius: 15px;
+}
+button {
+    background-color: #09b609;
+    color: rgb(78, 26, 10);
+    border: none;
+    padding: 14px 28px;
+    margin-top: 25px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.image img {
+    width: 70%;
+    max-width: 50px;
+    border-radius: 15px;
+}
+.services {
+    text-align: center;
+    padding: 50px 8%;
+}
+
+.cards {
+    display: flex;
+    gap: 20px;
+    margin-top: 30px;
+    }
+
+.card {
+    background: rgb(238, 19, 19);
+    padding: 30px;
+    border-radius: 12px;
+    flex: 1;
+}
+.card h3 {
+    color: rgb(192, 159, 109);
+    margin-bottom: 12px;
+}
+
+footer {
+    background: #4927af;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Responsive Design */
+
+@media (max-width:768px) {
+    nav ul {
+        gap: 10px;
+        font-size: 12px;
+    }
+.hero {
+    flex-direction: column;
+    text-align: center;
+}
+.content {
+    font-size: 32px;
+}
+.cards {
+    flex-direction: column;
+}
+}
